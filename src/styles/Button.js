@@ -2,12 +2,12 @@ import styled from "styled-components";
 
 const COLORS = {
   primary: {
-    "--main": "indigo",
-    "--accent": "white",
+    "--main": "#13105d",
+    "--accent": "darkorange",
   },
   secondary: {
-    "--main": "lavenderblush",
-    "--accent": "indigo",
+    "--main": "#13105d",
+    "--accent": "darkorange",
   },
 };
 
@@ -41,12 +41,12 @@ const FillButton = styled(ButtonBase)`
 `;
 
 const OutlineButton = styled(ButtonBase)`
-  background-color: white;
+  background-color: #13105d;
   color: var(--main);
   border: 2px solid var(--main);
 
   &:hover {
-    background: hsl(235deg 85% 97%);
+    background: darkorange;
   }
 `;
 
